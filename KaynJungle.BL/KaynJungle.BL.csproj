@@ -13,5 +13,8 @@
     <ProjectReference Include="..\KaynJungle.Core\KaynJungle.Core.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\KaynJungle.DAL\KaynJungle.DAL.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

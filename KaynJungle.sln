@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaynJungle.Core", "KaynJung
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaynJungle.BL", "KaynJungle.BL\KaynJungle.BL.csproj", "{5C22AD69-51C7-4D3F-9B00-9EFE4D14FDDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaynJungle.DAL", "KaynJungle.DAL\KaynJungle.DAL.csproj", "{4919C369-4CDF-4D02-BFFA-0845C0A04857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +27,9 @@ Global
 		{5C22AD69-51C7-4D3F-9B00-9EFE4D14FDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C22AD69-51C7-4D3F-9B00-9EFE4D14FDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C22AD69-51C7-4D3F-9B00-9EFE4D14FDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4919C369-4CDF-4D02-BFFA-0845C0A04857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4919C369-4CDF-4D02-BFFA-0845C0A04857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4919C369-4CDF-4D02-BFFA-0845C0A04857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4919C369-4CDF-4D02-BFFA-0845C0A04857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

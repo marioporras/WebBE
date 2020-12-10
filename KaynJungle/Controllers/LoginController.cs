@@ -11,9 +11,9 @@ namespace KaynJungle.API.Controllers
     {
         public IUsuarioBL _usuarioBL { get; set; }
 
-        public LoginController(IUsuarioBL usuarioBL)
+        public LoginController(IUsuarioBL pollo)
         {
-            _usuarioBL = usuarioBL;
+            _usuarioBL = pollo;
         }
 
         [HttpPost]
