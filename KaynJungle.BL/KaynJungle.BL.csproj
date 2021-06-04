@@ -4,11 +4,6 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <OutputType>Library</OutputType>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Contracts\" />
-    <Folder Include="Implementations\" />
-  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\KaynJungle.Core\KaynJungle.Core.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>

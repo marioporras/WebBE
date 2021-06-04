@@ -23,13 +23,23 @@ namespace KaynJungle.BL.Implementations
 
         public void Add(UsuarioDTO usuarioDTO)
         {
-            _usuarioRepository.Add(usuarioDTO);
+            throw new NotImplementedException();
         }
 
         public IEnumerable<UsuarioDTO> Get()
         {
-            var usuarios = _usuarioRepository.Get();
-            return usuarios;
+            throw new NotImplementedException();
         }
+
+        //  public void Add(UsuarioDTO usuarioDTO)
+        //{
+        // _usuarioRepository.Add(usuarioDTO);
+        //}
+
+        //  public IEnumerable<UsuarioDTO> Get()
+        // {
+        // var usuarios = _usuarioRepository.Get();
+        //     return usuarios;
+        //}
     }
 }

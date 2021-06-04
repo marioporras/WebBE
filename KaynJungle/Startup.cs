@@ -35,15 +35,24 @@ namespace KaynJungle
 
             //Aquí inyección del contexto:
 
-            services.AddDbContext<ConcesionarioDBContext>(opts => opts.UseMySql(Configuration["ConnectionString:TallerDB"]));
+            services.AddDbContext<ConcesionarioDBContext>(opts => opts.UseMySql(Configuration["ConnectionString:TallerDB"], ServerVersion.AutoDetect(Configuration["ConnectionString:TallerDB"])));
 
-
+            //Para habilitar CORS en nuestra API
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader());
+            });
 
             //Aquí las inyecciones: Interfaz - Clase
             services.AddScoped<IUsuarioBL, UsuarioBL>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IVentaBL, VentaBL>();
+            services.AddScoped<IVentaRepository, VentaRepository>();
         }
-
+        //dotnet ef dbcontext scaffold "server=localhost;port=3306;user=root;password=1234546;database=elproyecto" MySql.Data:EntityFrameworkCore -o mismodelos
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -57,6 +66,8 @@ namespace KaynJungle
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors("CorsPolicy");
 
             app.UseEndpoints(endpoints =>
             {

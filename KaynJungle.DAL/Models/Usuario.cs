@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace KaynJungle.DAL.Models
 {
     public partial class Usuario
     {
+
         public int IdUsuario { get; set; }
         public string User { get; set; }
         public string Password { get; set; }
@@ -17,3 +19,5 @@ namespace KaynJungle.DAL.Models
         public virtual Concesionario ConcesionarioIdConcesionarioNavigation { get; set; }
     }
 }
+
+   

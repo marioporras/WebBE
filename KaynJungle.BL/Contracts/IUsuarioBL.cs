@@ -7,7 +7,7 @@ namespace KaynJungle.BL.Contracts
     public interface IUsuarioBL
     {
         bool Login(UsuarioDTO usuarioDTO);
-        void Add(UsuarioDTO usuarioDTO);
-        IEnumerable<UsuarioDTO> Get();
+        //void Add(UsuarioDTO usuarioDTO);
+        //IEnumerable<UsuarioDTO> Get();
     }
 }

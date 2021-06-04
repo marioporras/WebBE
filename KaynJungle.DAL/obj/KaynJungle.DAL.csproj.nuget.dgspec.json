@@ -1,29 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jose/Projects/KaynJungle/KaynJungle.DAL/KaynJungle.DAL.csproj": {}
+    "C:\\Users\\mario\\Source\\Repos\\EjemploAPI\\KaynJungle.DAL\\KaynJungle.DAL.csproj": {}
   },
   "projects": {
-    "/Users/jose/Projects/KaynJungle/KaynJungle.Core/KaynJungle.Core.csproj": {
+    "C:\\Users\\mario\\Source\\Repos\\EjemploAPI\\KaynJungle.Core\\KaynJungle.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jose/Projects/KaynJungle/KaynJungle.Core/KaynJungle.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mario\\Source\\Repos\\EjemploAPI\\KaynJungle.Core\\KaynJungle.Core.csproj",
         "projectName": "KaynJungle.Core",
-        "projectPath": "/Users/jose/Projects/KaynJungle/KaynJungle.Core/KaynJungle.Core.csproj",
-        "packagesPath": "/Users/jose/.nuget/packages/",
-        "outputPath": "/Users/jose/Projects/KaynJungle/KaynJungle.Core/obj/",
+        "projectPath": "C:\\Users\\mario\\Source\\Repos\\EjemploAPI\\KaynJungle.Core\\KaynJungle.Core.csproj",
+        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mario\\Source\\Repos\\EjemploAPI\\KaynJungle.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/jose/.config/NuGet/NuGet.Config"
+          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -53,33 +61,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jose/Projects/KaynJungle/KaynJungle.DAL/KaynJungle.DAL.csproj": {
+    "C:\\Users\\mario\\Source\\Repos\\EjemploAPI\\KaynJungle.DAL\\KaynJungle.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jose/Projects/KaynJungle/KaynJungle.DAL/KaynJungle.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\mario\\Source\\Repos\\EjemploAPI\\KaynJungle.DAL\\KaynJungle.DAL.csproj",
         "projectName": "KaynJungle.DAL",
-        "projectPath": "/Users/jose/Projects/KaynJungle/KaynJungle.DAL/KaynJungle.DAL.csproj",
-        "packagesPath": "/Users/jose/.nuget/packages/",
-        "outputPath": "/Users/jose/Projects/KaynJungle/KaynJungle.DAL/obj/",
+        "projectPath": "C:\\Users\\mario\\Source\\Repos\\EjemploAPI\\KaynJungle.DAL\\KaynJungle.DAL.csproj",
+        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mario\\Source\\Repos\\EjemploAPI\\KaynJungle.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/jose/.config/NuGet/NuGet.Config"
+          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/jose/Projects/KaynJungle/KaynJungle.Core/KaynJungle.Core.csproj": {
-                "projectPath": "/Users/jose/Projects/KaynJungle/KaynJungle.Core/KaynJungle.Core.csproj"
+              "C:\\Users\\mario\\Source\\Repos\\EjemploAPI\\KaynJungle.Core\\KaynJungle.Core.csproj": {
+                "projectPath": "C:\\Users\\mario\\Source\\Repos\\EjemploAPI\\KaynJungle.Core\\KaynJungle.Core.csproj"
               }
             }
           }
@@ -92,16 +107,17 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.7, )"
+              "version": "[5.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[3.1.7, )"
+              "version": "[5.0.6, )"
             },
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
@@ -109,7 +125,7 @@
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -130,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

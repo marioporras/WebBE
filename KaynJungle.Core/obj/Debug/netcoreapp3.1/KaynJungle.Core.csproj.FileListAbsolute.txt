@@ -1,0 +1,13 @@
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\bin\Debug\netcoreapp3.1\KaynJungle.Core.deps.json
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\bin\Debug\netcoreapp3.1\KaynJungle.Core.dll
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\bin\Debug\netcoreapp3.1\KaynJungle.Core.pdb
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\obj\Debug\netcoreapp3.1\KaynJungle.Core.csprojAssemblyReference.cache
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\obj\Debug\netcoreapp3.1\KaynJungle.Core.AssemblyInfoInputs.cache
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\obj\Debug\netcoreapp3.1\KaynJungle.Core.AssemblyInfo.cs
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\obj\Debug\netcoreapp3.1\KaynJungle.Core.csproj.CoreCompileInputs.cache
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\obj\Debug\netcoreapp3.1\staticwebassets\KaynJungle.Core.StaticWebAssets.Manifest.cache
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\obj\Debug\netcoreapp3.1\staticwebassets\KaynJungle.Core.StaticWebAssets.xml
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\obj\Debug\netcoreapp3.1\scopedcss\bundle\KaynJungle.Core.styles.css
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\obj\Debug\netcoreapp3.1\KaynJungle.Core.RazorTargetAssemblyInfo.cache
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\obj\Debug\netcoreapp3.1\KaynJungle.Core.dll
+C:\Users\mario\Source\Repos\EjemploAPI\KaynJungle.Core\obj\Debug\netcoreapp3.1\KaynJungle.Core.pdb

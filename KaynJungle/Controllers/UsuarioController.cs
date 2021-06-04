@@ -20,16 +20,17 @@ namespace KaynJungle.API.Controllers
             _usuarioBL = pollo;
         }
 
-        [HttpPost]
-        public ActionResult<bool> Add(UsuarioDTO usuarioDTO)
-        {
-            _usuarioBL.Add(usuarioDTO);
-            return Ok(true);
-        }
+        //[HttpPost]
+        // public ActionResult<bool> Add(UsuarioDTO usuarioDTO)
+        // {
+        //    _usuarioBL.Add(usuarioDTO);
+        //    return Ok(true);
+        // }
 
-        public ActionResult<IEnumerable<UsuarioDTO>> Get()
-        {
-            return Ok(_usuarioBL.Get()) ;
-        }
+        //  public ActionResult<IEnumerable<UsuarioDTO>> Get()
+        //  {
+        //      return Ok(_usuarioBL.Get()) ;
+        //}
+        // }
     }
 }

@@ -416,7 +416,7 @@ namespace KaynJungle.DAL.Models
                     .ValueGeneratedOnAdd();
 
                 entity.Property(e => e.ConcesionarioIdConcesionario)
-                    .HasColumnName("Concesionario_idConcesionario")
+                    .HasColumnName("ConcesionarioidConcesionario")
                     .HasColumnType("int(11)");
 
                 entity.Property(e => e.Apellidos)
@@ -577,6 +577,12 @@ namespace KaynJungle.DAL.Models
 
                 entity.Property(e => e.UsuarioIdUsuario)
                     .HasColumnName("Usuario_idUsuario")
+                    .HasColumnType("int(11)");
+                entity.Property(e => e.ConcesionarioIdConcesionario)
+                    .HasColumnName("ConcesionarioIdConcesionario")
+                    .HasColumnType("int(11)");
+                entity.Property(e => e.Importe)
+                    .HasColumnName("Importe")
                     .HasColumnType("int(11)");
             });
 

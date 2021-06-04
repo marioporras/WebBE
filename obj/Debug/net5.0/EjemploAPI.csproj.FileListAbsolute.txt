@@ -1,0 +1,5 @@
+C:\Users\mario\source\repos\EjemploAPI\obj\Debug\net5.0\EjemploAPI.csprojAssemblyReference.cache
+C:\Users\mario\source\repos\EjemploAPI\obj\Debug\net5.0\EjemploAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mario\source\repos\EjemploAPI\obj\Debug\net5.0\EjemploAPI.AssemblyInfoInputs.cache
+C:\Users\mario\source\repos\EjemploAPI\obj\Debug\net5.0\EjemploAPI.AssemblyInfo.cs
+C:\Users\mario\source\repos\EjemploAPI\obj\Debug\net5.0\EjemploAPI.csproj.CoreCompileInputs.cache
